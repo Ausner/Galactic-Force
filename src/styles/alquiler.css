@@ -1,0 +1,31 @@
+.image-container {
+    width: 98%;
+    margin-top: 20px;
+    border-radius: 40px;
+    margin-left: 1%;
+    margin-right: 51px;
+    justify-content: center;
+    display: flex;
+    position: relative; /* Add this to position the pseudo-elements correctly */
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.image {
+    height: 300px;
+    width: 45%;
+    border-radius: 40px; 
+    object-fit: cover; 
+    position: relative; 
+    box-shadow: 0 9px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 32px 0 rgba(0, 0, 0, 0.19)
+}
+
+.info-container {
+    display: flex;
+    gap: 8%;
+    margin-left: 10%;
+}
+
+.img-amount {
+    cursor: pointer;
+}
